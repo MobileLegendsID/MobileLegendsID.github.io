@@ -1,0 +1,795 @@
+body {
+  margin: 0px;
+  background: #aaadd4;
+  color: #0d0014;
+  font-family: arial;
+}
+
+.conatineralexmoba {
+  background: url(../img/bg-4fed3b35.png) no-repeat center;
+  background-size: cover;
+}
+
+.headeralexmoba {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.kiriheadmoba {
+  margin-left: 15px;
+}
+
+.kiriheadmoba img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.kananheadmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.toastmobalex {
+  background: url(../img/nick.png) no-repeat center;
+  background-size: 100% 100%;
+  height: 25px;
+  padding: 0px 20;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.toastmobalex p {
+  margin-block: 0px;
+  font-size: 15px;
+}
+
+.rulesmobaalex {
+  background: url(../img/rules-tab.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 600;
+}
+
+.rulesmobaalex p {
+  margin-block: 0px;
+  margin: 15% auto;
+}
+
+.banneralexmoba {
+  padding: 2.5em 10px 10px;
+}
+
+.slideralexbanner {
+  border: 2px solid #c847e2;
+  border-radius: 10px;
+  background: url(https://m.mobilelegends.com/static/images/preload.jpg) no-repeat center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 184px;
+}
+
+.slideralexbanner img {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+
+.menualexmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.itemmenualexmoba {
+  width: 30%;
+  background: url(../img/menu.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: .4px;
+  filter: grayscale(1);
+}
+
+.itemmenualexmoba p {
+  margin-block: 0px;
+  line-height: 35px;
+  color: #cbfbfd;
+}
+
+.alexactive {
+  filter: unset;
+}
+
+.isimobalaex {
+  padding: 1.5em 10px 4em;
+}
+
+.menuboxmobaalex {
+  display: flex;
+  justify-content: space-between;
+  background: #2d3a6c;
+  color: #aaadd4;
+  font-size: 13px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.itemalexmenu {
+  text-align: center;
+  width: 50%;
+  line-height: 28px;
+  color: #cbfbfd;
+}
+
+.itemalexmenu p {
+  margin-block: 0px;
+  line-height: 30px;
+}
+
+.kirialexaktif {
+  background: url(../img/kiri-aktif-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+}
+
+.kananalexaktif {
+  background: url(../img/kanan-aktif-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+}
+
+.boxitemalexmoba {
+  background: url(../img/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 10px 10px 20px;
+  height: 370px;
+}
+
+.contalexitem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 385px;
+  height: 100%;
+  overflow-x: overlay;
+}
+
+.itemalexmoba {
+  background: url(../img/card-Bg-333369c7.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 90px;
+  height: 185px;
+  display: inline-grid;
+  justify-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.imgitemalexmoba {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.imgitemalexmoba img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 135px;
+  width: 100%
+}
+
+.itemalexmoba button {
+  width: 100%;
+  background: url(../img/btn-active-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  line-height: 23px;
+  color: #0d0014;
+  outline: none;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+.ucapanalexspin {
+  text-align: center;
+}
+
+.ucapanalexspin p {
+  font-size: 14px;
+}
+
+.boxspinalexmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemspinalexmoba {
+  background: url(../img/quan.3393c6c5.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.darkWheel {
+  filter: brightness(0.5);
+}
+
+.ledWheel {
+  filter: drop-shadow(2px 4px 6px #681794);
+  ;
+}
+
+.imgalexspinmoba {}
+
+.imgalexspinmoba img {
+  width: 60px;
+  height: 60px;
+  margin: 8% auto;
+}
+
+.buttonspinalexmoba {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.buttonspinalexmoba button {
+  background: url(../img/spin-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+  line-height: 33px;
+  padding: 0px 25px;
+  text-align: center;
+  border: none;
+  filter: drop-shadow(2px 4px 6px #0d0014);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.popalexrulesmoba {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000000ab;
+}
+
+.boxmobapoprules {
+  background: url(../img/rule-Bg-3ab590a2.png) no-repeat center;
+  background-size: 100% 100%;
+  max-width: 411px;
+  width: 80%;
+  margin: 34% auto;
+}
+
+.closepoprulesalex {
+  text-align: right;
+}
+
+.closepoprulesalex img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 4%;
+  top: 15%;
+}
+
+.boxmobarulesalex {
+  padding: 0px 0px 20px;
+}
+
+.ucapanpopalexrules {
+  text-align: center;
+  color: #480e98;
+  letter-spacing: .4px;
+}
+
+.ucapanpopalexrules h3 {
+  padding: 1.2em 0px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.steprulesalex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 10px 20px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.steprulesalex span {
+  margin-bottom: 10px;
+}
+
+.trueidalexmoba {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000000c2;
+}
+
+.boxtrueidalex {
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 30px 20px;
+  width: 80%;
+  margin: 66% auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.ucapanboxidalex p {
+  margin-block: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 2px 7px #af35ff;
+}
+
+.inputidalex {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px 10px;
+}
+
+.inputidalex input {
+  width: 100%;
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 42px;
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #fff;
+}
+
+.zoneid {
+  margin-left: 10px !important;
+  width: 65% !important;
+}
+
+.inputidalex input::-webkit-input-placeholder {
+  /* Edge */
+  color: #bdbdbd;
+}
+
+.inputidalex input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bdbdbd;
+}
+
+.inputidalex input::placeholder {
+  color: #bdbdbd;
+}
+
+.alertalexid {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.warn {
+  display: none;
+}
+
+.buttonidalex {
+  text-align: center;
+}
+
+.buttonidalex button {
+  background: url(../img/btn-active-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 30px;
+  font-size: 17px;
+  color: #0d0014;
+  border: none;
+  padding: 0px 35px;
+  font-weight: 500;
+  border-radius: 50px;
+    outline: none;
+}
+
+.alex-login {
+  background: #000000c4;
+  z-index: 999999;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.pilihan-login {
+  background: rgba(18, 39, 70, .94);
+  position: relative;
+  display: inline-block;
+  width: 90vw;
+  max-width: 675px;
+  min-height: 80px;
+  border: 1px solid #4c87d4;
+  font-size: 12px;
+  color: #98e8ff;
+  margin: 44% auto;
+  border-radius: 5px;
+}
+
+.close-alexlog {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  right: 15px;
+  background: url(https://cdn.jsdelivr.net/gh/AlexHostX/all.img@main/close-mllog.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.ucapan-login {
+  text-align: center;
+  font-size: 22px;
+  padding: 40px 0 30px;
+  font-family: Arial;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.btnlogalex {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 77%;
+  height: 50px;
+  line-height: 20px;
+  background: url(https://cdn.jsdelivr.net/gh/AlexHostX/all.img@main/btn-ml-log.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto 15px;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  border: none;
+}
+
+.rewardalexspin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: #000000ab;
+}
+
+.boxrewardspinalex {
+  background: url(../img/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 80%;
+  margin: 56% auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ucapanspinalexreward p {
+  color: #af35ff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-block: 0px;
+  text-shadow: 1px 2px 1px #a53dee;
+}
+
+.boxgambaralex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.boxgambaralex img {
+  width: 80px;
+}
+
+.boxgambaralex span {
+  margin-top: 5px;
+}
+
+.buttonrewardspinalex {
+  padding-top: 20px;
+}
+
+.buttonrewardspinalex button {
+  background: url(../img/btn-active-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 30px;
+  font-size: 17px;
+  color: #0d0014;
+  border: none;
+  padding: 0px 35px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+
+.alexhostslide {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  bottom: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.dot {
+  background: transparent;
+  width: 45px;
+  height: 8px;
+  border: 1px solid #c1c6fc;
+  background-size: 100%;
+  position: relative;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+.active {
+  background: #9e3fbe;
+}
+
+.verificationalexmoba {
+  background: url(../img/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.alexformmoba {
+  padding: 15px;
+}
+
+.itemformalexmoba {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.doubleformalex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemformmarsya {
+  width: 100%;
+  text-align: left;
+}
+
+.itemformmarsya label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.itemformmarsya input {
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.itemformalexmoba label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.itemformalexmoba input {
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.itemformalexmoba select {
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.itemformalexmoba button {
+  background: url(../img/btn-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  line-height: 35px;
+  color: #0d0014;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 42%;
+  padding: 0px 30px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.itemformmarsya select {
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.triple {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subverifalex {
+  padding: 0px 10px;
+}
+
+.ucapansubverifalex {
+  background: url(../img/trueid-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.ucapansubverifalex p {
+  color: #c7c7f9;
+  margin-block: 0px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.boxcompletealexmoba {
+  text-align: center;
+  padding: 4em 0px 5em;
+}
+
+.boxcompletealexmoba p {
+  padding: 0px 0px 3em;
+  font-size: 18px;
+}
+
+.boxcompletealexmoba button {
+  background: url(../img/btn-alex.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  color: #0d0014;
+  outline: none;
+  font-size: 18px;
+  width: 40%;
+  line-height: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+@media only screen and (max-width: 361px) {
+  .slideralexbanner {
+    width: 100%;
+    height: 160px;
+  }
+
+  .dot {
+    height: 4px;
+  }
+
+  .boxitemalexmoba {
+    height: 310px;
+  }
+
+  .itemalexmoba {
+    width: 75px;
+    height: 157px;
+  }
+
+  .buttonspinalexmoba {
+    padding-top: 11px;
+  }
+
+  .ucapanspinalexreward p {
+    font-size: 21px;
+    text-shadow: 1px 1px 1px #a53dee;
+  }
+
+  .boxgambaralex img {
+    width: 70px;
+  }
+
+  .boxgambaralex span {
+    font-size: 14px;
+  }
+
+  .ucapansubverifalex p {
+    font-size: 18px;
+  }
+
+  .itemformalexmoba input {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .itemformmarsya select {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .itemformalexmoba select {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .itemformalexmoba button {
+    line-height: 32px;
+    font-size: 16px;
+    width: 39%;
+  }
+
+  .boxcompletealexmoba p {
+    font-size: 16px;
+  }
+
+  .boxcompletealexmoba button {
+    font-size: 16px;
+    width: 34%;
+    line-height: 32px;
+  }
+}
